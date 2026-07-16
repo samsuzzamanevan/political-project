@@ -1,0 +1,748 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: poppins;
+}
+
+
+
+.section{
+    width:1110px;
+    margin:0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* ====================================== bannar part start================================================ */
+
+.bannar .header{
+    text-align: center;
+    width:1140px;
+    margin:30px 0;
+}
+
+
+.bannar img{
+    width:135px;
+    position: relative;
+}
+
+
+.bannar sup{
+    font-size: 18px;
+    font-weight: 700;
+    color:#FFF;
+    position: relative;
+    top:-10px;
+    right:3px;
+
+}
+
+
+    .onno{
+        width: 0px;
+        height: 45px;
+        text-align: center;
+        margin:0 auto;
+        overflow: hidden;
+        position: relative;
+        animation: onno1 40s infinite ease-in-out;
+    }
+
+    @keyframes onno1{
+        0%{
+            width:0 ;
+        }
+        2.5%{
+            width:607px;
+        }
+        5%{
+            width: 607px;
+        }
+        7.5%{
+            width:0;
+        }
+        10%{
+            width:0;
+        }
+       
+        12.5%{
+            width: 262px;
+            
+        }
+        15%{
+            width: 262px;
+        }
+        17.5%{
+            width:0;
+        }
+        20%{
+            width: 0;
+        }
+       
+        22.5%{
+            width: 537px;
+            
+        }
+        25%{
+            width: 537px;
+        }
+        27.5%{
+            width:0;
+        }
+        30%{
+            width: 0;
+        }
+
+       32.5%{
+            width: 420px;
+            
+        }
+        35%{
+            width: 420px;
+        }
+        37.5%{
+            width:0;
+        }
+        40%{
+            width: 0;
+        }
+    
+        42.5%{
+            width: 457px;
+            
+        }
+        45%{
+            width: 457px;
+        }
+        47.5%{
+            width:0;
+        }
+        50%{
+            width: 0;
+        }
+        
+       
+        52.5%{
+            width: 442px;
+            
+        }
+        55%{
+            width: 442px;
+        }
+        57.5%{
+            width:0;
+        }
+        60%{
+            width: 0;
+        }
+       
+       
+        62.5%{
+            width: 583px;
+            
+        }
+        65%{
+            width: 583px;
+        }
+        67.5%{
+            width:0;
+        }
+        70%{
+            width: 0;
+        }
+    
+        72.5%{
+            width: 454px;
+            
+        }
+        75%{
+            width: 454px;
+        }
+        77.5%{
+            width:0;
+        }
+        80%{
+            width: 0;
+        }
+    
+       82.5%{
+            width: 924px;
+            
+        }
+        85%{
+            width: 924px;
+        }
+        87.5%{
+            width:0;
+        }
+        90%{
+            width: 0;
+        }
+        
+       92.5%{
+            width: 524px;
+            
+        }
+        95%{
+            width: 524px;
+        }
+        97.5%{
+            width:0;
+        }
+        100%{
+            width: 0;
+        }
+        
+    }
+
+    .onno::before{
+        height: 45px;
+        width:5px;
+        background-color: #FFF;
+        position: absolute;
+        top: -5px;
+        right:0px;
+        content: "";
+    }
+    
+
+    .onno::after{
+        position: absolute;
+        top:-5;
+        left: 0;
+        font-size: 33px;
+        font-weight: 700;
+        color: #FFF;
+        content:"Astute - Political WordPress Theme";
+        white-space: nowrap;
+        animation: onno 40s infinite ease-in-out;
+    }
+
+ @keyframes onno{
+        0%{ 
+           
+          content:"Astute - Political WordPress Theme";
+        }
+
+        2.5%{
+            content: "Astute - Political WordPress Theme";
+        }
+
+        5%{
+            content: "Astute - Political WordPress Theme";
+        }
+
+        7.5%{
+            content:"Astute - Political WordPress Theme ";
+        }
+        10%{
+            content:"A Clean Design ";
+        }
+        12.5%{
+            content: "A Clean Design ";
+        }
+
+        15%{
+            content: "A Clean Design ";
+        }
+
+        17.5%{
+            content:" A Clean Design";
+        }
+        20%{
+            content:" Beautifully for Political Website";
+        }
+        22.5%{
+            content: " Beautifully for Political Website";
+        }
+
+        25%{
+            content: " Beautifully for Political Website";
+        }
+
+        27.5%{
+            content:"Beautifully for Political Website ";
+        }
+        30%{
+            content:"100% Responsive Design ";
+        }
+        32.5%{
+            content: "100% Responsive Design ";
+        }
+
+        35%{
+            content: "100% Responsive Design ";
+        }
+
+        37.5%{
+            content:"100% Responsive Design";
+        }
+        40%{
+            content:"Unlimited Color Supported";
+        }
+        42.5%{
+            content: "Unlimited Color Supported";
+        }
+
+        45%{
+            content: "Unlimited Color Supported";
+        }
+
+        47.5%{
+            content:"Unlimited Color Supported";
+        }
+        50%{
+            content:"Drag & Drop Page Builder";
+        }
+        52.5%{
+            content: "Drag & Drop Page Builder";
+        }
+
+        55%{
+            content: "Drag & Drop Page Builder";
+        }
+
+        57.5%{
+            content:"Drag & Drop Page Builder";
+        }
+        60%{
+            content:"Awesome Elementor Page Builder";
+        }
+        62.5%{
+            content: "Awesome Elementor Page Builder";
+        }
+
+        65%{
+            content: "Awesome Elementor Page Builder";
+        }
+
+        67.5%{
+            content:"Awesome Elementor Page Builder";
+        }
+        70%{
+            content:"All Features In One Theme";
+        }
+        72.5%{
+            content: "All Features In One Theme";
+        }
+
+        75%{
+            content: "All Features In One Theme";
+        }
+
+        77.5%{
+            content:"All Features In One Theme";
+        }
+        80%{
+            content:"Don't Happy using our Theme, Money back Guarantee";
+        }
+        82.5%{
+            content: "Don't Happy using our Theme, Money back Guarantee";
+        }
+
+        85%{
+            content: "Don't Happy using our Theme, Money back Guarantee";
+        }
+
+        87.5%{
+            content:"CDon't Happy using our Theme, Money back Guarantee";
+        }
+        90%{
+            content:"Coming Soon More New Demo";
+        }
+        92.5%{
+            content: "Coming Soon More New Demo";
+        }
+
+        95%{
+            content: "Coming Soon More New Demo";
+        }
+
+        97.5%{
+            content:"Coming Soon More New Demo";
+        }
+        100%{
+            content:"Astute - Political WordPress Theme";
+        }
+       
+
+       
+
+    }
+
+    .bannar p{
+        margin:40px 0;
+    }
+
+    .bannar p span{
+        margin:0 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color:#FFF;
+    }
+
+    .bannar .button{
+        text-align: center;
+        margin:40px 0px;
+    }
+
+    .bannar a{
+        font-size: 12px;
+        padding:17px 50px;
+        color:#FFF;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #a91131 0%, #f01e4a 100%);
+        text-decoration: none;
+        
+    }
+
+    .bannar .a{
+        padding:17px 36px;
+        margin: 0 0 0 50px;
+    }
+
+
+    .bannar{
+        width:100%;
+        padding:280px 0;
+        background-image: url(../images/bannar.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    .bannar::after{
+        width:100%;
+        height:100%;
+        background-image: url(../images/bannar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top:0;
+        left:0;
+        content:"";
+        filter: brightness(0.5);
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+/* ====================================== bannar part end================================================ */
+
+
+/* ======================================== section1 strat================================================================== */
+
+
+
+        .child-section{
+            width:1535px;
+            margin:0 auto;
+        }
+
+        .section1{
+            text-align: center;
+        }
+
+        .section1 h2{
+            font-size: 32px;
+            margin:32px 0 0 0;
+            padding: 0 0 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+
+        .section1 p{
+            font-size: 30px;
+            font-weight: 500;
+            color:#333;
+            margin:0 0 70px;
+        }
+
+        .section1 .div{
+            display: inline-block;
+            padding:0 8px;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .section1 .div p{
+            width:481px;
+            margin:30px auto;
+            font-size:18px ;
+            font-weight: 500;
+            color:#333;
+        }
+
+        .section1 .div::after{
+            height: 0;
+            width:97%;
+            background-color: rgba(248, 248, 248, 0.8);
+            position: absolute;
+            bottom:15%;
+            left:1.5%;
+            content:""; 
+            transition: 0.5s;
+            z-index: 0;
+        }
+
+        .section1 .div:hover::after{
+            height: 85%;
+        }
+
+        .section1 .div::before{
+            font-size:  14px;
+            font-weight: 400;
+            color:#FFF;
+            position:absolute;
+            left:40%;
+            top:38%;
+            border-radius: 5px;
+            content: "LIVE PRIVIWE";
+            background-color: rgb(252, 2, 2);
+            padding:5px 17px 5px 17px;
+            transform: scale(0);
+            z-index: 1;
+            transition: 0.5s;
+        }
+
+        .section1 .div:hover::before{
+            transform: scale(1);
+        }
+
+        .section1{
+            width:100%;
+            background-color: transparent;
+            padding:80px 0 20px 0;
+        }
+
+
+
+
+
+/* ======================================== section1 end================================================================== */
+
+
+
+/* ===========================================   section2 start   ============================================ */
+        
+        .section21{
+            width:1170px;
+            margin:0 auto;
+
+        }
+
+        
+
+        .section2 h4{
+            font-size: 27px;
+            text-align: center;
+            background:  linear-gradient(90deg, #f50e3e 0%, rgb(70, 10, 23) 100%);
+            width:409px;
+            border-radius: 15px;
+            padding: 6px 10px;
+            margin:0px auto 80px auto;
+            text-shadow: 6px 7px rgba(51, 74, 196, 0.36);
+            color:#FFF;
+        }
+
+
+        .section2 .din{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .section2 .card{
+            display:inline-block;
+            margin: 0 15px 30px;
+            padding:20px 10px;
+            font-size: 20px;
+            background-color: #FFF;
+            width:340px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .section2 .din .card span{
+            font-size: 35px;
+            font-weight: 500;
+            color:red;
+            padding-right: 10px;
+            vertical-align: middle;
+
+        }
+        .section2{
+            width:100%;
+            background-color: transparent;
+            padding:60px 0 20px 0;
+        }
+
+
+
+
+/* ===========================================   section2 end   ============================================ */
+
+
+/* ==================================  section3 start     =============================================== */
+
+
+        .section3 h2{
+            width:680px;
+            text-align: center;
+            font-size: 36px;
+            margin:0px auto 32px;
+            color:#333; 
+            font-weight: 600;
+        }
+
+        .section3 h2 span{
+            color:#f01e4a;
+            text-shadow: 6px 7px rgba(51, 74, 196, 0.16);
+        }
+
+        .section3 img{
+            width:100%;
+        }
+
+        .section3{
+            width:100%;
+            background-color: transparent;
+            padding:80px 0 20px 0;
+        }
+
+
+/* ==================================  section3 end     =============================================== */
+
+       /* =======================  section4 strat ========================= */
+
+
+         .section21{
+            width:1170px;
+            margin:0 auto;
+
+        }
+
+        
+
+        .section4 h4{
+            font-size: 27px;
+            text-align: center;
+            background:  linear-gradient(90deg, #f50e3e 0%, rgb(70, 10, 23) 100%);
+            width:409px;
+            border-radius: 15px;
+            padding: 6px 10px;
+            margin:0px auto 80px auto;
+            text-shadow: 6px 7px rgba(51, 74, 196, 0.36);
+            color:#FFF;
+        }
+
+
+        .section4 .din{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .section4 .card{
+            height: 40px;
+            display:inline-block;
+            margin: 0 10px 30px ;
+            padding:20px 8px;
+            font-size: 16px;
+            background-color: #FFF;
+            width:350px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px 1px rgba(0, 0, 0, 0.1);
+            line-height: 20px;
+        }
+
+        .section4 .din .card span{
+            font-size: 35px;
+            font-weight: 500;
+            color:red;
+            padding-right: 10px;
+            vertical-align: middle;
+
+        }
+
+        .section4{
+            width:100%;
+            background-color: transparent;
+            padding:60px 0 20px 0;
+        }
+
+
+
+       /* =======================  section4 end ========================= */
+
+
+       /* ===================  section5 start ============= */
+
+            .section5 p{
+                text-align: center;
+                font-size: 22px;
+                color:#333;
+                font-weight: 500;
+            }
+
+
+            .section5 button{
+                padding:17px 50px;
+                font-size: 15px;
+                color:#FFF;
+                border-radius: 5px;
+                background: linear-gradient(90deg, #a91131 0%, #f01e4a 100%);
+                border:none;
+                margin-top:30px;
+                transition: 0.3s;
+            }
+
+
+            .section5 button:hover{
+                background: linear-gradient(90deg, #a91131 0%, #f01e4a 60%);
+                box-shadow: 0 0 25px rgb(116, 40, 40);
+            }
+
+            .section5{
+                text-align: center;
+                width:100%;
+                background-color: transparent;
+                padding:50px 0px 80px 0;
+            }
+
+
+
+
+       /* ===================  section5 end ============= */
+
+
+       /* ============================  footer start==================================== */
+
+       .footer p{
+        font-size: 14px;
+        color:#FFF;
+        font-weight: 500;
+       }
+
+       .footer p span{
+        color:#f01e4a;
+       }
+
+       .footer{
+        width:100%;
+        background-color: black;
+        padding:30px 0 30px 0;
+        text-align: center;
+       }
+
+       /* ============================  footer end==================================== */
